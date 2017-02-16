@@ -32,7 +32,7 @@ function createtemplate(data) {
             <hr/>
         </div>
     </body>
-    </div>          //bottle clossing   
+    </div>         
 </html>
 `;
     return articletemplate;
