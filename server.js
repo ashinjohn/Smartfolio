@@ -16,10 +16,10 @@ function createtemplate(data) {
     var content = data.content;
     var articletemplate =
     `<html>
-    <style>
+    <styles>
     padding-top: 10px;
     padding-left: 10px;
-    </style>
+    </styles>
         <head>
             <title>
             ${title}
