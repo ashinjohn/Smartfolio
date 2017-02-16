@@ -1,7 +1,7 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-
+<link href="/ui/style.css" rel="stylesheet" />
 
 var app = express();
 app.use(morgan('combined'));
