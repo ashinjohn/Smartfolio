@@ -16,6 +16,8 @@ function createtemplate(data) {
     var content = data.content;
     var articletemplate =
     `<html>
+    padding-top: 10px;
+    padding-left: 10px;
         <head>
             <title>
             ${title}
