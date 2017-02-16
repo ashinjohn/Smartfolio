@@ -1,7 +1,6 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-<link href="/ui/style.css" rel="stylesheet" />
 
 var app = express();
 app.use(morgan('combined'));
@@ -23,6 +22,9 @@ function createtemplate(data) {
             ${title}
             </title>
         </head>
+        
+    <link href="/ui/style.css" rel="stylesheet" />
+
     <body>
          <div>
             <h5> ${content} 2</h5>
