@@ -10,7 +10,9 @@ var articleone = {
     content: 'content for article one',
 };
 
-function createtemplate(title,content) {
+function createtemplate(data) {
+    var title = data.title;
+    var content = data.content;
     var articletemplate =
     `<html>
         <head>
