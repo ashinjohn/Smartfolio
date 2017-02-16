@@ -16,10 +16,8 @@ function createtemplate(data) {
     var content = data.content;
     var articletemplate =
     `<html>
-    <styles>
-    padding-top: 10px;
-    padding-left: 10px;
-    </styles>
+    
+    <div  class = "bottle">
         <head>
             <title>
             ${title}
@@ -32,7 +30,7 @@ function createtemplate(data) {
             <hr/>
         </div>
     </body>
-        
+    </div>          //bottle clossing   
 </html>
 `;
     return articletemplate;
