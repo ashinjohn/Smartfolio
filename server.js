@@ -5,12 +5,39 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articleone = {
+    title:'page one' ,
+    content: 'content for article one',
+};
+
+function createtemplate(title,content) {
+    var articletemplate =
+    `<html>
+        <head>
+            <title>
+            ${title}
+            </title>
+        </head>
+    <body>
+         <div>
+            <h5> ${content} 2</h5>
+            <a href="/" > Home </a> 
+            <hr/>
+        </div>
+    </body>
+        
+</html>
+`;
+    return articletemplate;
+}
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/first',function(req,res){
-  res.sendFile(path.join(__dirname, 'ui', 'first.html'));
+  res.send(createtemplate(articleone));
 });
 
 
@@ -21,6 +48,8 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
+
+
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
