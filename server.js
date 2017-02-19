@@ -7,6 +7,7 @@ app.use(morgan('combined'));
 
 var articles = {
     'article-one' : {
+        
     title:'page one' ,
     content: 'content for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article onecontent for article one'   
     },
