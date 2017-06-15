@@ -3,21 +3,43 @@ body, html {
 }
 
 img{
-  padding-top: 10px; 
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+  width: 50%;
+
+
+
 }
 
-h1 {
-  font-family: "Times New Roman", Times, Sans-serif;
-  font-size: 20px;
-  padding-top: 4 0px;
-    color: 	#333333;
-    text-align: center;
-    letter-spacing: .3px;
-    line-height: 1;
-    word-spacing: .3px;
+h1{
+  padding-top: 200px;
+  color: 	#333333;
+  text-align: center;
+  letter-spacing: .3px;
+  line-height: 1;
+  word-spacing: .3px;
+
+font-family: "Times New Roman", Times, Sans-serif;
+font-size: 20px;
+
+border-width: 15px;
+  border-style: solid;
 }
+
 
 form{
-  padding-top: 50px;
-  padding-left: 150px;
+  background-color: lightgrey;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+button{
+  background-color: lightgrey;
+  margin-left: 105px;
+  margin-top: 10px;
+  style="float: right"                ;
 }
