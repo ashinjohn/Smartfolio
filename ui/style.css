@@ -1,26 +1,23 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    padding-top: 10px;
-    padding-left: 10px;
+body, html {
+   height: 100%;
 }
 
-.center {
+img{
+  padding-top: 10px; 
+}
+
+h1 {
+  font-family: "Times New Roman", Times, Sans-serif;
+  font-size: 20px;
+  padding-top: 4 0px;
+    color: 	#333333;
     text-align: center;
+    letter-spacing: .3px;
+    line-height: 1;
+    word-spacing: .3px;
 }
 
-.text-big {
-    font-size: 300%;
+form{
+  padding-top: 50px;
+  padding-left: 150px;
 }
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-    .bottle {
-    padding-top: 20px;
-    padding-left: 30px;
-    }
